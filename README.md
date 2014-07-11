@@ -1,4 +1,6 @@
 WP
 ==
 
-wp hacks
+Custom Admin Logo
+
+...
