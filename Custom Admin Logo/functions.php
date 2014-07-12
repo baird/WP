@@ -5,8 +5,8 @@ echo "
 <style>
 body.login #login h1 a {
 background: url('".get_bloginfo('template_url')."/images/VARIABLE_1.jpg') 8px 0 no-repeat transparent;
-height:42px;
-width:230px; }
+height:61px;
+width:320px; }
 </style>
 ";
 }
