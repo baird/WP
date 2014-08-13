@@ -1,6 +1,6 @@
 WP
 ==
 
-Custom Admin Logo
+Hacks and archived plugins
 
 ...
