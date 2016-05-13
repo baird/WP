@@ -12,6 +12,17 @@ width:320px; }
 }
 add_action("login_head", "custom_admin_logo");
 
+/**** Newer Custom Logo ****/
+
+function my_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/admin_logo.png) !important;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
 /**** Custom Logo URL ****/
 
 function custom_admin_logo_url() {
